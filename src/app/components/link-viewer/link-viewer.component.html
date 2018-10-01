@@ -1,0 +1,24 @@
+<svg:g>
+  <svg:line
+    #line
+    [attr.id]="link.indexLabel"
+    [attr.x1]="link.source.x"
+    [attr.y1]="link.source.y"
+    [attr.x2]="link.target.x"
+    [attr.y2]="link.target.y"
+    [attr.stroke]="color"
+    [attr.marker-end]="(link.directed)?'url(#end-arrow)':''"
+  >
+  </svg:line>
+  <svg:text
+    [attr.x]="(link.target.x-link.source.x)/2+link.source.x-labelSize"
+    [attr.y]="(link.target.y-link.source.y)/2+link.source.y+15"
+    class=""
+    fill="black">
+    {{link.label}}
+  </svg:text>
+<!--  <svg:path [attr.d]="path"
+            [attr.stroke]="color"
+            [attr.stroke-width]="lineWidth">
+  </svg:path>-->
+</svg:g>

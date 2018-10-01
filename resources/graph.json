@@ -1,0 +1,136 @@
+{
+  "label": "Example 1",
+  "type": "bidirectional",
+  "directed": false,
+  "nodes": [
+    {
+      "id": "A"
+    },
+    {
+      "id": "B"
+    },
+    {
+      "id": "C"
+    },
+    {
+      "id": "D"
+    },
+    {
+      "id": "E"
+    },
+    {
+      "id": "F"
+    },
+    {
+      "id": "G"
+    },
+    {
+      "id": "H"
+    },
+    {
+      "id": "I"
+    },
+    {
+      "id": "J"
+    },
+    {
+      "id": "K"
+    },
+    {
+      "id": "L"
+    }
+  ],
+  "edges": [
+    {
+      "sourceId": "A",
+      "targetId": "E",
+      "weight": 10
+    },
+    {
+      "sourceId": "B",
+      "targetId": "F",
+      "weight": 1
+    },
+    {
+      "sourceId": "B",
+      "targetId": "K",
+      "weight": 4
+    },
+    {
+      "sourceId": "C",
+      "targetId": "F",
+      "weight": 11
+    },
+    {
+      "sourceId": "C",
+      "targetId": "I",
+      "weight": 13
+    },
+    {
+      "sourceId": "C",
+      "targetId": "L",
+      "weight": 6
+    },
+    {
+      "sourceId": "D",
+      "targetId": "H",
+      "weight": 5
+    },
+    {
+      "sourceId": "D",
+      "targetId": "I",
+      "weight": 8
+    },
+    {
+      "sourceId": "D",
+      "targetId": "L",
+      "weight": 15
+    },
+    {
+      "sourceId": "E",
+      "targetId": "F",
+      "weight": 4
+    },
+    {
+      "sourceId": "E",
+      "targetId": "G",
+      "weight": 9
+    },
+    {
+      "sourceId": "E",
+      "targetId": "J",
+      "weight": 5
+    },
+    {
+      "sourceId": "F",
+      "targetId": "G",
+      "weight": 6
+    },
+    {
+      "sourceId": "G",
+      "targetId": "H",
+      "weight": 5
+    },
+    {
+      "sourceId": "G",
+      "targetId": "I",
+      "weight": 7
+    },
+    {
+      "sourceId": "G",
+      "targetId": "J",
+      "weight": 8
+    },
+    {
+      "sourceId": "H",
+      "targetId": "J",
+      "weight": 3
+    },
+    {
+      "sourceId": "K",
+      "targetId": "L",
+      "weight": 8
+    }
+  ]
+}
+
